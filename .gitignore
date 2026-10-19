@@ -1,0 +1,17 @@
+.Xil/
+*.cache/
+*.runs/
+*.gen/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.jou
+*.log
+*.pb
+xsim.dir/
+project/
+build/
+Debug/
+Release/
+.metadata/
+__pycache__/

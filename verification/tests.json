@@ -1,0 +1,24 @@
+[
+  {
+    "name": "i2c_core",
+    "sources": [
+      "rtl/i2c_master.sv",
+      "rtl/i2c_slave.sv",
+      "rtl/i2c_top.sv"
+    ],
+    "tb": "verification/tb/i2c_core.sv",
+    "top": "audit_i2c",
+    "pass_marker": "AUDIT I2C PASS",
+    "assets": []
+  },
+  {
+    "name": "i2c_boards",
+    "sources": [
+      "rtl/*.sv"
+    ],
+    "tb": "verification/tb/i2c_boards.sv",
+    "top": "audit_i2c_board",
+    "pass_marker": "AUDIT I2C BOARD PASS",
+    "assets": []
+  }
+]
